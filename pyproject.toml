@@ -1,0 +1,11 @@
+[project]
+name = "velib-injection-j4"
+version = "0.1.0"
+description = "Journée 4 : injection SQL et requêtes paramétrées sur la base Vélib'"
+requires-python = ">=3.11"
+dependencies = [
+    "psycopg[binary]>=3.2",
+    "python-dotenv>=1.0",
+    "pandas>=2.2",
+    "streamlit>=1.40",
+]
